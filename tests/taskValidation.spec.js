@@ -16,7 +16,7 @@ test.describe('Asana Task Automation', () => {
     });
 
     for (const { tab, task, column, tags } of data.testCases) {
-        test(`Verify task "${task}" in "${tab}"`, async ({page}) => {
+        test(`Verify task "${task}" in "${tab}"`, async () => {
             await dashBoardPage.navigateToTab(tab);        
             await dashBoardPage.verifyTaskInColumn(task, column);
             await dashBoardPage.verifyTags(task, tags);
