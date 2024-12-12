@@ -1,0 +1,44 @@
+{
+    "credentials": {
+        "username":"admin",
+        "password":"password123"
+    },
+    "testCases": [
+        {
+            "tab": "Web Application",
+            "task": "Implement user authentication",
+            "column": "To Do",
+            "tags": ["Feature", "High Priority"]            
+        },
+        {
+            "tab": "Web Application",
+            "task": "Fix navigation bug",
+            "column": "To Do",
+            "tags": ["Bug"]            
+        },
+        {
+            "tab": "Web Application",
+            "task": "Design system updates",
+            "column": "In Progress",
+            "tags": ["Design"]            
+        },
+        {
+            "tab": "Mobile Application",
+            "task": "Push notification system",
+            "column": "To Do",
+            "tags": ["Feature"]            
+        },
+        {
+            "tab": "Mobile Application",
+            "task": "Offline mode",
+            "column": "In Progress",
+            "tags": ["Feature", "High Priority"]            
+        },
+        {
+            "tab": "Mobile Application",
+            "task": "App icon design",
+            "column": "Done",
+            "tags": ["Design"]            
+        }
+    ]
+}
