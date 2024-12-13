@@ -3,7 +3,7 @@
 # Asana Task Automation
 
 ## **Introduction**
-This project automates task verification for a demo Asana application using Playwright. It dynamically adapts to test cases defined in a JSON object to reduce duplication and improve scalability.
+This project automates task verification for a demo Asana application using Playwright and JavaScript. It dynamically adapts to test cases defined in a JSON object to reduce duplication and improve scalability.
 
 ## **Implementation Details**
 1. **Page Object Model (POM):** Modularizes the login and task verification processes.
@@ -20,3 +20,5 @@ This project automates task verification for a demo Asana application using Play
 ## **Recommendations**
 - Implement API testing for faster task data validation.
 - Add additional edge cases for login (e.g., incorrect credentials).
+- Documentation notes:
+  The name of the web application login field is incorrect (Email is specified, it should be Username)
